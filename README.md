@@ -1,2 +1,6 @@
 # odin-recipes
-first project in the Odin Project curriculum 
+This is my first project on GitHub. The goal of the project is to build a basic recipe website. 
+
+Skills used:
+- Git
+- HTML
