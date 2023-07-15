@@ -1,0 +1,23 @@
+body{
+    
+    background-color: aqua;
+}
+h1{
+    font-size: 42px;
+    font-style: Times New Roman, Arial, Helvetica, sans-serif;
+    color:blue;
+    background-color:pink ;
+    background-size: auto;
+    font-weight: 800;
+}
+img{
+    border-style:  solid;
+    border-width: 1px; 
+}
+.font{
+    font-size: 20px;
+}
+.color{
+    color:black;
+    background-color: yellow;
+}
