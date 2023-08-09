@@ -1,5 +1,9 @@
-body{
+*{
+    background-color: white;
+}
+.container{
     background-color:beige ;
+    margin: 100 auto;
 }
 img{
     height: auto;
