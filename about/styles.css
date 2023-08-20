@@ -1,10 +1,4 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f5e1b1; /* Lighter tan for better contrast */
-    color: #333;
-}
+/* Your existing CSS rules */
 
 .container {
     max-width: 800px;
@@ -13,58 +7,43 @@ body {
     text-align: center;
 }
 
-
-.title {
-    font-size: 36px; /* Adjusted font size for better readability */
-    font-family: 'Times New Roman', Arial, Helvetica, sans-serif;
+.container h2 {
+    font-size: 28px;
     color: #0066cc;
-    font-weight: 800;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.container p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
     margin-bottom: 20px;
 }
 
-.chef-image {
-    max-width: 100%;
-    height: auto;
-    margin-top: 20px;
-    border: 1px solid #333; /* Darker border color for better contrast */
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-}
-
-li {
-    margin: 10px 0;
-}
-
-a {
-    text-decoration: none;
-    color: #0066cc;
-    transition: color 0.3s;
-}
-
-a:hover {
-    color: #ff6600;
-}
-
-.button {
-    font-size: 18px;
-    color: #fff;
-    background-color: #0066cc;
+.back-button {
     display: inline-block;
-    margin-right: 10px;
-    padding: 8px 16px;
+    padding: 10px 20px;
+    background-color: #0066cc;
+    color: white;
+    text-decoration: none;
     border-radius: 5px;
-    text-transform: uppercase;
     transition: background-color 0.3s;
 }
 
-.button:hover {
+.back-button:hover {
     background-color: #ff6600;
 }
+ /* Your existing CSS rules */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5e1b1; /* Match the background color from your landing page */
+    color: #333;
+}
+
+/* Your other styles */
 /* Navbar Styles */
 .navbar {
     background-color: #333;
@@ -128,3 +107,4 @@ a:hover {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
