@@ -22,8 +22,19 @@ body {
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-bottom: 20px;
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh; 
 
+      
+}
+.chef-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh; /* Adjust the height as needed */
+  }
 .chef-image {
     max-width: 100%;
     height: auto;
@@ -84,6 +95,11 @@ a:hover {
     display: flex;
     justify-content: space-between; /* Spread out navigation items */
     align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      
+      
 }
 
 .nav-menu li {
